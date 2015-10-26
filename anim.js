@@ -1,9 +1,9 @@
 //innocent bunny
 
 noStroke();
-var x = 230;
-var y = 233;
-var faceSize = 197;
+var x = 140;
+var y = 260;
+var faceSize = 360;
 
 // ears
 var earSize=faceSize*1/2;
@@ -20,8 +20,8 @@ ellipse(x, y, faceSize, faceSize);
 //eyes 
 var eyeSize = faceSize/8;
 fill(0, 0, 0);
-ellipse(x-faceSize/4, 180, eyeSize, eyeSize);
-ellipse(x+faceSize/4, 180, eyeSize, eyeSize);
+ellipse(x-faceSize/4, y-faceSize/8, eyeSize, eyeSize);
+ellipse(x+faceSize/4, y-faceSize/8, eyeSize, eyeSize);
 
 
 
