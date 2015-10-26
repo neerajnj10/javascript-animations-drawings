@@ -1,3 +1,5 @@
+#animated view
+
 var xPos1 = 1;
 var yPos = 10;
 var xPos2 = 2;
